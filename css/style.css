@@ -137,6 +137,7 @@ figure{
 		}
 			.ProductosRedes-productos__titulo{
 				display: table-row;
+				text-align: center;
 			}
 			.ProductosRedes-productos__imagen{
 				display: table-cell;
