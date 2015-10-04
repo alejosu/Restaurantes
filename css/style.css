@@ -1,4 +1,125 @@
 html{
-	background-color: #edd690;
+	background-color: #a50f1d;
 }
 
+figure{
+	padding: 0;
+	margin: 0;
+}
+
+.Main{
+	display: table;
+	background-color: #a50f1d;
+	color: white;
+	width: 100%;
+	height: 4rem;
+	margin: 0;
+	padding: 0;
+
+}
+	.Main-menuIcon{
+		display: table-cell;
+		font-size: 1.7rem;
+		text-align: center;
+		margin-left: 1.5rem;
+		width: 20%;
+		vertical-align: middle;
+	}
+	.Main-nombre{
+		display: table-cell;
+		width: 80%;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+.DomiciliosRedes{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	display: table;
+	width: 100%;
+}
+	.DomiciliosRedes-domicilios{
+		display: table-cell;
+		width: 90%;
+	}
+		.DomiciliosRedes__titulo{
+			padding: 0;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.DomiciliosRedes__imagen{
+			text-align: center;
+			margin-top: .8rem;
+		}
+		.DomiciliosRedes__descripcion{
+			text-align: justify;
+			padding: .5rem;
+		}
+	.DomiciliosRedes-redes{
+		display: table-cell;
+		vertical-align: middle;
+		background-color: #B1bD5D;
+		width: 10%;
+		padding: 0;
+		margin: 0;
+	}	
+		.DomiciliosRedes-Redes__links{
+			list-style-type: none;
+			width: 10%;
+			padding: 0;
+			margin: 0;
+		}
+		.DomiciliosRedes-Redes__links__icono{
+			padding:0.5rem;
+			margin: 0 auto;
+		}
+
+.Promociones{
+	padding-bottom: .5rem;
+	margin: 0;
+	margin-bottom: 1rem;
+	background-color: white;
+}
+	.Promociones-imagen{
+		text-align: center;
+		padding-bottom: 1.5rem;
+	}
+	.Promociones-descripcion{
+		text-align: justify;
+	}
+.LinksDerechos{
+	display: table;
+	width: 100%;
+	margin-top: 2rem;
+	padding: 0;
+	color: white;
+}
+	.LinksDerechos-links{
+		margin: 0;
+		padding: 0;
+	}
+	.LinksDerechos-links__lista{
+		list-style-type: none;
+		text-align: center;
+		-webkit-margin-before: 0;
+	    -webkit-margin-after: 0;
+	    -webkit-margin-start: 0px;
+	    -webkit-margin-end: 0px;
+	    -webkit-padding-start: 0;
+	}
+		.LinksDerechos-links__lista__link{
+			display: inline-block;
+			padding: 0 .8rem;
+		}
+		.LinksDerechos-links__lista__link a{
+			text-decoration: none;
+			color: white;
+		}
+	.LinksDerechos-derechos{
+		font-size: .7rem;
+		margin-top: 3.5rem;
+	}
+		.LinksDerechos-derechos_descripcion{
+			text-align: center;
+		}
