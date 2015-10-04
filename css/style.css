@@ -124,3 +124,26 @@ figure{
 		.LinksDerechos-derechos_descripcion{
 			text-align: center;
 		}
+.ProductosRedes{
+	display: table;
+}
+	.ProductosRedes-productos{
+		display: table-cell;
+		background-color: white;
+		padding: .5rem;
+	}
+		.ProductosRedes-productos__articulo{
+			margin: .8rem .5rem;
+		}
+			.ProductosRedes-productos__titulo{
+				display: table-row;
+			}
+			.ProductosRedes-productos__imagen{
+				display: table-cell;
+				padding: .5rem;
+			}
+			.ProductosRedes-productos__descripcion{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: right;
+			}
