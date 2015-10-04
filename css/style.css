@@ -87,6 +87,7 @@ figure{
 	}
 	.Promociones-descripcion{
 		text-align: justify;
+		padding: .5rem;
 	}
 .LinksDerechos{
 	display: table;
@@ -123,4 +124,3 @@ figure{
 		.LinksDerechos-derechos_descripcion{
 			text-align: center;
 		}
-		
