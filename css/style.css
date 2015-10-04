@@ -58,7 +58,7 @@ figure{
 		}
 	.DomiciliosRedes-redes{
 		display: table-cell;
-		vertical-align: middle;
+		vertical-align: top;
 		background-color: #B1bD5D;
 		width: 10%;
 		padding: 0;
@@ -147,4 +147,3 @@ figure{
 				vertical-align: middle;
 				text-align: right;
 			}
-			
