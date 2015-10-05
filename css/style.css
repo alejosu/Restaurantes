@@ -7,6 +7,21 @@ figure{
 	margin: 0;
 }
 
+ul{
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+
+h3{
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 .Main{
 	display: table;
 	background-color: #a50f1d;
@@ -103,11 +118,6 @@ figure{
 	.LinksDerechos-links__lista{
 		list-style-type: none;
 		text-align: center;
-		-webkit-margin-before: 0;
-	    -webkit-margin-after: 0;
-	    -webkit-margin-start: 0px;
-	    -webkit-margin-end: 0px;
-	    -webkit-padding-start: 0;
 	}
 		.LinksDerechos-links__lista__link{
 			display: inline-block;
@@ -160,10 +170,6 @@ figure{
 		}
 			.SucursalesRedes-sucursales__titulo{
 				text-align: center;
-				-webkit-margin-before: 0em;
-			    -webkit-margin-after: 0em;
-			    -webkit-margin-start: 0px;
-			    -webkit-margin-end: 0px;
 			    margin-top: .5rem;
 			}
 			.SucursalesRedes-sucursales__imagen{
@@ -175,11 +181,6 @@ figure{
 				list-style-type: none;
 				text-align: left;
 				font-size: .8rem;
-				-webkit-margin-before: 0;
-			    -webkit-margin-after: 0;
-			    -webkit-margin-start: 0px;
-			    -webkit-margin-end: 0px;
-			    -webkit-padding-start: 0;
 			}
 				.SucursalesRedes-sucursales__direccion{
 					display: block;
