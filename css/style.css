@@ -198,3 +198,42 @@ h3{
 				.SucursalesRedes-sucursales__telefono:before{
 					content: "Teléfono: ";
 				}
+
+.ContactoRedes{
+	display: table;
+}
+	.ContactoRedes-contacto{
+		background-color: white;
+		margin: 0;
+		padding:0;
+		display: table-cell;
+	}
+		.ContactoRedes__titulo{
+			text-align: center;
+		}
+		.ContactoRedes__form{
+			text-align: center;
+		}
+			.ContactoRedes__form__nombre{
+				width: 85%;
+				margin: .5rem;
+				border: solid 1px #a50f1d;
+				border-radius: 2px;
+			}
+			.ContactoRedes__form__email{
+				width: 85%;
+				margin: .5rem;
+				border: solid 1px #a50f1d;
+				border-radius: 2px;
+			}
+			.ContactoRedes__form__comentario{
+				margin: .5rem;
+				border: solid 1px #a50f1d;
+				border-radius: 2px;
+			}
+
+			.ContactoRedes__form__boton{
+				border: solid 1px #a50f1d;
+				margin: .5rem;	
+				border-radius: 2px;
+			}
