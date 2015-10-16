@@ -5,16 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/responsivemobilemenu.css">
 	<title>Nexdu Restaurantes</title>
 </head>
 <body>
 	<header class="Main">
-		<div class="Main-menuIcon">&#9776;</div>
+		<nav class="rmm" data-menu-title="" data-menu-style="minimal">
+	        <ul>
+	            <li><a href='#'>Productos</a></li>
+	            <li><a href='#'>Sucursales</a></li>
+	            <li><a href='#'>Contacto</a></li>
+	       </ul>
+		</nav>
+		<!-- <div class="Main-menuIcon">&#9776;</div> -->
 		<h1 class="Main-nombre">Restaurante Nexdu</h1>
 	</header>
 	<section class="DomiciliosRedes">
 		<article class="DomiciliosRedes-domicilios">
-			<h1 class="DomiciliosRedes__titulo">Domicilios</h1>
+			<h2 class="DomiciliosRedes__titulo">Domicilios</h2>
 			<figure class="DomiciliosRedes__imagen">
 				<img src="../images/domicilios.jpeg" width="150" alt="Domicilios">
 			</figure>
@@ -25,16 +33,16 @@
 		<aside class="DomiciliosRedes-redes">
 			<ul class="DomiciliosRedes-Redes__links">
 				<li><a href="#"><figure class="DomiciliosRedes-Redes__links__icono">
-					<img src="../images/facebook.png" width="50" alt="Facebook">
+					<img src="../images/facebook.png" width="30" alt="Facebook">
 				</figure></a></li>
 				<li><a href="#"><figure class="DomiciliosRedes-Redes__links__icono">
-					<img src="../images/twitter.png" width="50" alt="Twitter">
+					<img src="../images/twitter.png" width="30" alt="Twitter">
 				</figure></a></li>
 				<li><a href="#"><figure class="DomiciliosRedes-Redes__links__icono">
-					<img src="../images/google-plus.png" width="50" alt="Google plus">
+					<img src="../images/google-plus.png" width="30" alt="Google plus">
 				</figure></a></li>
 				<li><a href="#"><figure class="DomiciliosRedes-Redes__links__icono">
-					<img src="../images/instagram.png" width="50" alt="Instagram">
+					<img src="../images/instagram.png" width="30" alt="Instagram">
 				</figure></a></li>
 			</ul>
 		</aside>
@@ -61,5 +69,7 @@
 			</p>
 		</aside>
 	</footer>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/responsivemobilemenu.js"></script>
 </body>
 </html>

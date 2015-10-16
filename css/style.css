@@ -1,5 +1,19 @@
+/*mobile first*/
+
 html{
 	background-color: #a50f1d;
+}
+
+h1{
+	font-size: 1.5rem;
+}
+
+h2{
+	font-size: 1.2rem;
+}
+
+nav{
+	font-size: .7rem;
 }
 
 figure{
