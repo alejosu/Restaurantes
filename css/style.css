@@ -140,6 +140,7 @@ h3{
 		.LinksDerechos-links__lista__link a{
 			text-decoration: none;
 			color: white;
+			font-size: 1rem;
 		}
 	.LinksDerechos-derechos{
 		font-size: .7rem;
