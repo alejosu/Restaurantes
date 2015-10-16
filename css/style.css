@@ -12,6 +12,10 @@ h2{
 	font-size: 1.2rem;
 }
 
+nav{
+	font-size: .7rem;
+}
+
 figure{
 	padding: 0;
 	margin: 0;
@@ -133,3 +137,4 @@ figure{
 		.LinksDerechos-derechos_descripcion{
 			text-align: center;
 		}
+

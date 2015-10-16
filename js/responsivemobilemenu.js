@@ -54,7 +54,7 @@ function getMobileMenu() {
 	$('.rmm').each(function() {	
 				var menutitle = $(this).attr("data-menu-title");
 				if ( menutitle == "" ) {
-					menutitle = "Menu";
+					menutitle = "";
 				}
 				else if ( menutitle == undefined ) {
 					menutitle = "Menu";
