@@ -255,7 +255,7 @@ h3{
 
 /*Tablet*/
 
-@media (min-width: 406px){
+@media (min-width: 479px){
 	.Logo{
 		display:table-cell;
 	}
