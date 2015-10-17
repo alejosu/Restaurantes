@@ -50,6 +50,7 @@ h3{
 		display:none;
 	}
 	.rmm{
+		display:block;
 	}
 	.Main-nombre{
 		display: table-cell;
@@ -252,19 +253,14 @@ h3{
 
 /*Tablet*/
 
-@media (min-width: 479px){
+@media (min-width: 478px){
 	.Logo{
-		display:table-cell;
+		display:inline-block;
+		vertical-align: middle;
 	}
-	.Menu-title{
-		display: table-cell;
+	.Main-nombre{
+		display: inline-block;
 	}
-		.Main-nombre{
-			display: table-row;
-		}
-		.rmm{
-			display:table-row;
-		}
-
+	
 
 }
