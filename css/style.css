@@ -255,7 +255,7 @@ h3{
 
 /*Tablet*/
 
-@media screen and (max-width: 406px){
+@media (max-width: 406px){
 	h1{
 		color: red;
 	}
