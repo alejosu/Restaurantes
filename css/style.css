@@ -49,13 +49,11 @@ h3{
 	.Logo{
 		display:none;
 	}
-	.Main-menuIcon{
-		display: table-cell;
-		font-size: 1.7rem;
-		text-align: center;
-		margin-left: 1.5rem;
-		width: 20%;
-		vertical-align: middle;
+	.Menu-title{
+		display: table;
+	}
+	.rmm{
+		display:table-cell;
 	}
 	.Main-nombre{
 		display: table-cell;
