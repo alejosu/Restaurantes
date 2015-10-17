@@ -49,11 +49,7 @@ h3{
 	.Logo{
 		display:none;
 	}
-	.Menu-title{
-		display: table;
-	}
 	.rmm{
-		display:table-cell;
 	}
 	.Main-nombre{
 		display: table-cell;
