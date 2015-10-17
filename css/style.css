@@ -46,6 +46,9 @@ h3{
 	padding: 0;
 
 }
+	.Logo{
+		display:none;
+	}
 	.Main-menuIcon{
 		display: table-cell;
 		font-size: 1.7rem;
