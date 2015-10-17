@@ -255,8 +255,17 @@ h3{
 
 /*Tablet*/
 
-@media (max-width: 406px){
-	h1{
-		color: red;
+@media (min-width: 406px){
+	.Logo{
+		display:table-cell;
 	}
+	.Menu-title{
+		display: table-cell;
+	}
+		.Main-nombre{
+			display: table-row;
+		}
+		.rmm{
+			display:table-row;
+		}
 }
