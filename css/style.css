@@ -53,10 +53,10 @@ h3{
 		display: table;
 	}
 	.rmm{
-		display:table-column;
+		display:table-cell;
 	}
 	.Main-nombre{
-		display: table-column;
+		display: table-cell;
 		width: 100%;
 		text-align: center;
 		vertical-align: middle;
@@ -269,4 +269,6 @@ h3{
 		.rmm{
 			display:table-row;
 		}
+
+
 }
