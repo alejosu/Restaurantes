@@ -83,6 +83,9 @@ h3{
 			text-align: justify;
 			padding: .5rem;
 		}
+	.DomiciliosRedes-domicilios_tablet{
+		display: none;
+	}
 	.DomiciliosRedes-redes{
 		display: table-cell;
 		vertical-align: top;
