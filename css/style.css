@@ -265,4 +265,7 @@ h3{
 	.DomiciliosRedes-domicilios{
 		display: none;
 	}
+	.DomiciliosRedes-domicilios_tablet{
+		display: table;
+	}
 }
