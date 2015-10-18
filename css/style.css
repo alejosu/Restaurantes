@@ -262,5 +262,7 @@ h3{
 		display: inline-block;
 	}
 	
-
+	.DomiciliosRedes-domicilios{
+		display: none;
+	}
 }
