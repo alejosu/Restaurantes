@@ -49,12 +49,12 @@ h3{
 	.Logo{
 		display:none;
 	}
-	.rmm{
+	/*.rmm{
 		display:block;
-	}
+	}*/
 	.Main-nombre{
 		display: table-cell;
-		width: 100%;
+		width: 80%;
 		text-align: center;
 		vertical-align: middle;
 	}
