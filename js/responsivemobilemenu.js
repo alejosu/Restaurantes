@@ -38,11 +38,11 @@ function responsiveMobileMenu() {
 			// if modern browser
 			
 			if ($.support.leadingWhitespace) {
-				$(this).css('max-width' , $width*1.05+'px');
+				$(this).css('max-width' , $width*1.25+'px');
 			}
 			// 
 			else {
-				$(this).css('width' , $width*1.05+'px');
+				$(this).css('width' , $width*1.25+'px');
 			}
 		
 	 	});
@@ -73,7 +73,7 @@ function adaptMenu() {
 	$('.rmm').each(function() {
 			var $width = $(this).css('max-width');
 			$width = $width.replace('px', ''); 
-			if ( $(this).parent().width() < $width*1.05 ) {
+			if ( $(this).parent().width() < $width*1.25 ) {
 				$(this).children('.rmm-main-list').hide(0);
 				$(this).children('.rmm-toggled').show(0);
 			}

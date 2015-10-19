@@ -100,6 +100,9 @@ h3{
 			padding: 0;
 			margin: 0;
 		}
+		.DomiciliosRedes-Redes__links_tablet{
+			display: none;
+		}
 		.DomiciliosRedes-Redes__links__icono{
 			padding:0.5rem;
 			margin: 0 auto;
@@ -113,11 +116,13 @@ h3{
 }
 	.Promociones-imagen{
 		text-align: center;
-		padding-bottom: 1.5rem;
 	}
 	.Promociones-descripcion{
 		text-align: justify;
-		padding: .5rem;
+		padding: 1.5rem;
+	}
+	.Promociones-tablet{
+		display: none;
 	}
 .LinksDerechos{
 	display: table;
@@ -256,19 +261,64 @@ h3{
 
 /*Tablet*/
 
-@media (min-width: 478px){
+@media (min-width: 699px){
+	
+	.Main{
+		display:table;
+		padding-bottom: 1.8rem;
+	}
 	.Logo{
-		display:inline-block;
-		vertical-align: middle;
+		position: absolute;
+		left: 0;
 	}
 	.Main-nombre{
-		display: inline-block;
+		display: none;
+	}
+
+	.rmm{
+		display: block;
+	}
+
+	.DomiciliosRedes{
+		position: relative;
 	}
 	
 	.DomiciliosRedes-domicilios{
 		display: none;
 	}
 	.DomiciliosRedes-domicilios_tablet{
-		display: table;
+		display: inline-block;
+		padding: 1rem;
 	}
+	.DomiciliosRedes__titulo_tablet{
+		display: none;
+	}
+	.DomiciliosRedes__imagen_tablet{
+		text-align: center;
+	}
+	.DomiciliosRedes-redes{
+		display:none;
+	}
+	.DomiciliosRedes-redes_tablet{
+		display:block;
+	}
+	.DomiciliosRedes-Redes__links_tablet{
+		display:inline-block;
+		position: absolute;
+		top:0;
+		left:0;
+		padding:1rem;
+		list-style-type: none;
+	}
+	.Promociones-tablet{
+		display:flex;
+	}
+		.Promociones-imagen_tablet{
+			vertical-align: middle;
+			width: 50%;
+			padding:1rem;
+		}
+	.Promociones-imagen{
+		padding: 1rem;
+	}	
 }

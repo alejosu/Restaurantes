@@ -322,3 +322,20 @@ border-bottom-right-radius: 5px;
 .rmm.minimal .rmm-toggled ul li:first-child a {
 	border-top:1px solid #dedede;
 }
+
+@media (min-width: 699px){
+	.rmm-main-list{
+		font-size:5rem;
+	}
+	.rmm-main-list li a{
+		display: block;
+		background-color: black;
+		text-transform: uppercase;
+		border-radius: 10px;
+	}
+	.rmm-main-list li a:hover{
+		background-color: white;
+		color: black;
+		-webkit-transition: .6s;
+	}
+}
